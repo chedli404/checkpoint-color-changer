@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+   margin-top: 200px;
+   background-color: rgb(243, 104, 104);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    background-color: aliceblue;
+}
+#color-box{
+    background-color: aqua;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+#change-color-btn{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 20px;
+    box-shadow: 2px 5px black;
+}
+#change-color-btn:hover{
+    background-color: black;
+    color: blueviolet;
+}
